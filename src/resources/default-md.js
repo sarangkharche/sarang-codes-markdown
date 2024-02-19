@@ -7,11 +7,12 @@ export const defaultMarkdownText = `# Sarang Codes Markdown Editor
 - Responsive
 - Easy to use
 - Markdown syntax highlighting
+- Keyboard shortcuts
+- Dark mode
 
 
-## Motivation 
+
+## Motivation
 A simple markdown editor that is quick and easy to use.
-
-
 
 `;
