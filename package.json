@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@vercel/analytics": "^1.2.1",
     "codejar": "^3.7.0",
     "dom-to-image": "^2.6.0",
     "downloadjs": "^1.4.7",
