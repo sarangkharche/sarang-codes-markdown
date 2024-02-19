@@ -1,4 +1,5 @@
-export const defaultMarkdownText = `# sample markdown text 
+export const defaultMarkdownText = `
+# Sarang Codes Markdown Editor
 
 ## Mark Features 
 - Minimal and Quick
