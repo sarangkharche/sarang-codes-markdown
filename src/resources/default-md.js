@@ -1,11 +1,15 @@
 export const defaultMarkdownText = `# Sarang Codes Markdown Editor
 
-## Mark Features 
-- Minimal and Quick
+## Features
 - Supports commonmark standards
-- Built to be simple and add no overhead for people who simply want to enjoy writing in markdown
+- Live preview
+- Minimalistic and quick
+- Responsive
+- Easy to use
 
 ## Motivation 
 A simple markdown editor that is quick and easy to use.
+
+
 
 `;
