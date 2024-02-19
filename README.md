@@ -36,6 +36,8 @@ npm run dev
 
 # build the app into static files 
 npm run build
+
+#
 ```
 
 ## Contribute
