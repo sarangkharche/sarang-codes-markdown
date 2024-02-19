@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:800");
 
 :root {
-  --base-spacing: 4px;
+  --base-spacing: 10px;
   --base: #fff;
   --overlay: #f8f9fa;
   --surface: #f1f3f5;
   --text: #030405;
   --subtle: #07090a;
   --warn: #e5c07b;
-  --success: #98c379;
+  --scbackground: #232b32;
+  --success: #cbf33e;
   --toolbar-height: 42px;
 }
 
@@ -18,7 +20,7 @@
     --base: #232b32;
     --overlay: #20272d;
     --surface: #1c2228;
-    --text: white;
+    --text: #ffff;
     --subtle: #e9eaeb;
   }
 }
@@ -28,8 +30,12 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
-  background: var(--base);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  background: var(--scbackground);
   color: var(--text);
 }
 
@@ -38,14 +44,14 @@ a {
 }
 
 .code-editor {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Ubuntu", monospace;
   line-height: 2;
 }
 
 .preview-dot {
-  height: 10px;
-  width: 10px;
-  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
   background: var(--warn);
 }
 
@@ -106,13 +112,13 @@ a {
   padding-right: 10px;
   display: inline-flex;
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   left: 50%;
   min-width: 350px;
   border-radius: 50px;
   transform: translateX(-50%);
   background: var(--overlay);
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.12);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
 }
 
 .trigger {
