@@ -5,7 +5,7 @@
 
 ## Motivation
 
-Simple Markdown editor built with syntax highlighting and an optional preview that I mostly use for my work. I don't like the apps that exist and are mostly pretty memory heavy, on the other hand the web app is pretty simple and suffices most of what I use Markdown for
+A simple mardown editor I am planning to use to take notes and write markdown for my blog.
 
 ## Features
 
@@ -13,15 +13,17 @@ Simple Markdown editor built with syntax highlighting and an optional preview th
 - Export the raw .md file
 - Optional Preview
 
-## Development / Self Hosting 
+## Development / Self Hosting
 
-The app is a straightforward vuejs app and just a client sided one. You can set it up using the following steps. 
+The app is a straightforward vuejs app and just a client sided one. You can set it up using the following steps.
 
 **Prerequisite**
-1. [Node](https://nodejs.org/en/) at least v12 
+
+1. [Node](https://nodejs.org/en/) at least v12
 2. [git](https://git-scm.com/)
 
 **Steps**
+
 ```sh
 # clone this repo 
 git clone https://github.com/barelyhuman/mark
@@ -30,17 +32,11 @@ git clone https://github.com/barelyhuman/mark
 npm i 
 
 # run the dev server to check if it's working (optional)
-npm dev 
+npm run dev 
 
 # build the app into static files 
-npm build
-
-# you can then serve the output folder using your favorite http serving solution 
-npx serve dist
-# or 
-python –m SimpleHTTPServer dist
+npm run build
 ```
-
 
 ## Contribute
 
